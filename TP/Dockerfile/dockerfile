@@ -1,0 +1,3 @@
+FROM python:latest
+ADD test.py /
+CMD ["python3", "/test.py"]
